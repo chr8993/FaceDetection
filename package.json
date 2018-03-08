@@ -1,0 +1,18 @@
+{
+  "name": "facedetection",
+  "version": "0.0.1",
+  "description": "Face Detection using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Testing"
+  ],
+  "author": "Christian Gomez <chr8993@gmail.com> (http://christiangomez.me)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-converter-tjs": "0.0.3"
+  }
+}

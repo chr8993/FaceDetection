@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica, Arial;
+}
+canvas {
+  width: 512px;
+  height: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: block;
+  opacity: .1;
+}
+h1 {
+  text-align: center;
+  display: block;
+}
+button {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+video {
+  display: none;
+}
