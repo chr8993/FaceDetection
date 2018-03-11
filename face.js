@@ -191,19 +191,25 @@ var FaceDetect = {
   }
 };
 
-var canvas = document.getElementById("image");
-var video = document.getElementById("video");
-var ctx = canvas.getContext("2d");
-canvas.width = canvas.height = 512;
-var btn = document.getElementById("take-pic");
-var detect = document.getElementById("detect-face");
+var canvas, video, ctx;
+document.addEventListener("DOMContentLoaded", function() {
 
-btn.addEventListener("click", function() {
-  FaceDetect.takePicture();
-}, false);
+  canvas = document.getElementById("image");
+  video = document.getElementById("video");
+  ctx = canvas.getContext("2d");
 
-detect.addEventListener("click", function() {
-  FaceDetect.detectFace();
-}, false);
+  canvas.width = canvas.height = 512;
 
-FaceDetect.init();
+  var btn = document.getElementById("take-pic");
+  var detect = document.getElementById("detect-face");
+
+  btn.addEventListener("click", function() {
+    FaceDetect.takePicture();
+  }, false);
+
+  detect.addEventListener("click", function() {
+    FaceDetect.detectFace();
+  }, false);
+
+  FaceDetect.init();
+});
