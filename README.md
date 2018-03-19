@@ -21,6 +21,7 @@ A **classifier cascade** is made up of classifiers which contain a certain amoun
 
 # Putting it Together
 In order to detect faces we must first create a blank HTML5 canvas and video element that will hold our pixel data that is drawn onto the canvas. We will also need a couple of buttons with event listeners that will trigger our functions. In this example, I've set up the HTML to include two files `cascade.js` which will hold our cascade data and `face.js` which will contain all of the code behind detecting faces.
+
 ```html
 <html>
   <head>
